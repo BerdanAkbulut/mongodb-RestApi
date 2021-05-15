@@ -14,7 +14,7 @@ public class User {
 	@Indexed(unique = true) 
 	private String firstname;
 	
-	@Field("last_name") 
+	@Field("last_name")  
 	private String lastname;
 	
 	@Field("position")
