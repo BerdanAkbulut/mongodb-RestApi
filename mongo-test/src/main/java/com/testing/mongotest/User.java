@@ -11,7 +11,7 @@ public class User {
 	private String id;
 	
 	@Field("name")
-	@Indexed(unique = true)
+	@Indexed(unique = true) 
 	private String firstname;
 	
 	@Field("last_name") 
